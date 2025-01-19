@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .bi_sidenav {
+      background-color: #999;
+      color: #c36;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="bi_mySidenav" class="bi_sidenav xh-hightlight"><span>Foo</span></div>
+
+  <script type="text/javascript" defer>
+    const fn = function() {
+      const el = document.querySelector("#bi_mySidenav");
+      el.style = 'width: 60px';
+    }
+    setTimeout(fn, 3000);
+  </script>
+</body>
+</html>

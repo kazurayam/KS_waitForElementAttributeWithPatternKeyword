@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Large</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1200</initValue>
+      <name>WINDOW_WIDTH</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1000</initValue>
+      <name>WINDOW_HEIGHT</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
