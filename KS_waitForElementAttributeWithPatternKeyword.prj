@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>test</name>
+   <name>KS_waitForElementAttributeWithPatternKeyword</name>
    <tag></tag>
    <UUID>6e92db38-fab9-4765-ae18-c23e65164539</UUID>
    <migratedVersion>5.9.0</migratedVersion>
