@@ -1,0 +1,3 @@
+# waitForElementAttributeWithPattter keyword for Katalon Studio
+
+-   [The target web page](./page.html)

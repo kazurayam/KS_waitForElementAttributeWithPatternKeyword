@@ -11,12 +11,8 @@ This custom keyword was ispired by the discussion in a topic in the Katalon user
 
 - https://forum.katalon.com/t/this-should-work-getattribute-why-doesnt-it/162069/4
 
-## Target Web Page
 
- [Demo](https://youtu.be/EwZ6BEmqt4E)
+See the doc at
 
-
-
-## Problem to solve
-
+- https://kazurayam.github.io/KS_waitForElementAttributeWithPatternKeyword/
 
