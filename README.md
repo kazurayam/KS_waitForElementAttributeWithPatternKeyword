@@ -13,11 +13,7 @@ This custom keyword was ispired by the discussion in a topic in the Katalon user
 
 ## Target Web Page
 
- <iframe width="560" height="315"
-src="https://youtu.be/EwZ6BEmqt4E"
-frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
+ [Demo](https://youtu.be/EwZ6BEmqt4E)
 
 
 

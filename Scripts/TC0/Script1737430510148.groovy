@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
  * 
  */
 
-Path html = Paths.get(RunConfiguration.getProjectDir()).resolve("page.html")
+Path html = Paths.get(RunConfiguration.getProjectDir()).resolve("docs/page.html")
 WebUI.openBrowser('')
 WebUI.setViewPortSize(800, 600)
 WebUI.navigateToUrl(html.toFile().toURI().toURL().toExternalForm());
