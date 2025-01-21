@@ -1,10 +1,6 @@
 import static com.kazurayam.ks.TestObjectFactory.makeTestObject
 
-import java.nio.file.Path
-import java.nio.file.Paths
-
 import com.kazurayam.ks.WaitForElementAttributeWithPatternKeyword as KW
-import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
@@ -15,15 +11,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
  * 
  * TC2 passes.
  */
-
-Path html = Paths.get(RunConfiguration.getProjectDir()).resolve("docs/page.html")
+String url = "https://kazurayam.github.io/KS_waitForElementAttributeWithPatternKeyword/page.html"
 WebUI.openBrowser('')
 WebUI.setViewPortSize(800, 600)
-WebUI.navigateToUrl(html.toFile().toURI().toURL().toExternalForm());
+WebUI.navigateToUrl(url);
+
 TestObject tObj = makeTestObject("Side Navigation Window", "//*[@id='bi_mySidenav']");
 WebUI.verifyElementPresent(tObj, 10);
 
-String pattern = "width\\s*:\\s*[0-9]+%;?"
+String pattern = "width\\s*:\\s*[0-9]+px;?"
 
 boolean b2 = new KW().waitForElementAttributeWithPattern(tObj, 'style', pattern, 3, FailureHandling.STOP_ON_FAILURE)
 if (b2) {

@@ -1,9 +1,5 @@
 import static com.kazurayam.ks.TestObjectFactory.makeTestObject
 
-import java.nio.file.Path
-import java.nio.file.Paths
-
-import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
@@ -14,11 +10,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
  * by JavaScript.
  * 
  */
-
-Path html = Paths.get(RunConfiguration.getProjectDir()).resolve("docs/page.html")
+String url = "https://kazurayam.github.io/KS_waitForElementAttributeWithPatternKeyword/page.html"
 WebUI.openBrowser('')
 WebUI.setViewPortSize(800, 600)
-WebUI.navigateToUrl(html.toFile().toURI().toURL().toExternalForm());
+WebUI.navigateToUrl(url);
 
 WebUI.delay(3)
 

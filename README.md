@@ -1,4 +1,4 @@
-# [Katalon Studio ] a Custom Keyword: waitForElementAttributeWithPattern
+# [Katalon Studio] Custom Keyword: waitForElementAttributeWithPattern
 
 This is a small Katalon Studio project for demonstration purpose. You can download the zip from
 the [Releases](https://github.com/kazurayam/KS_waitForElementAttributeWithPatternKeyword/releases) page,
@@ -11,8 +11,7 @@ This custom keyword was ispired by the discussion in a topic in the Katalon user
 
 - https://forum.katalon.com/t/this-should-work-getattribute-why-doesnt-it/162069/4
 
-
-See the doc at
+# Detail documentation
 
 - https://kazurayam.github.io/KS_waitForElementAttributeWithPatternKeyword/
 
