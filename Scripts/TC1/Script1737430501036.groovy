@@ -25,12 +25,13 @@ WebUI.navigateToUrl(html.toFile().toURI().toURL().toExternalForm());
 TestObject tObj = makeTestObject("Side Navigation Window", "//*[@id='bi_mySidenav']");
 WebUI.verifyElementPresent(tObj, 10);
 
-boolean b1 = WebUI.waitForElementAttributeValue(tObj, 'style', "width: 0px;", 10, FailureHandling.STOP_ON_FAILURE)
+boolean b1 = WebUI.waitForElementAttributeValue(tObj, 'style', "width: 0px;", 3, FailureHandling.STOP_ON_FAILURE)
 if (b1) {
 	String styleValue1 = WebUI.getAttribute(tObj, "style");
 	WebUI.comment("styleValue1=" + styleValue1)
 } else {
-	KeywordUtil.markError("the style attribute with 'width: 0px' found not present")
+	KeywordUtil.markError("the style attribute with 'width: 0px' found not present. ")
+	KeywordUtil.logInfo("the style attribute value: ${WebUI.getAttribute(tObj, 'style')}")
 }
 
 WebUI.closeBrowser();

@@ -11,6 +11,7 @@
       color: #c36;
     }
   </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -18,11 +19,9 @@
 
   <script type="text/javascript" defer>
     const fn = function() {
-      const el = document.querySelector("#bi_mySidenav");
-      const percent = Math.floor(50 * Math.random());
-      el.style = `width: ${percent}%;`;
+      $("#bi_mySidenav").animate({width: '1px'}, 'slow')
     }
-    setTimeout(fn, 3000);
+    setTimeout(fn, 1000);
   </script>
 </body>
 </html>

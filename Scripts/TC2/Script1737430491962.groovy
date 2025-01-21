@@ -25,7 +25,7 @@ WebUI.verifyElementPresent(tObj, 10);
 
 String pattern = "width\\s*:\\s*[0-9]+%;?"
 
-boolean b2 = new KW().waitForElementAttributeWithPattern(tObj, 'style', pattern, 10, FailureHandling.STOP_ON_FAILURE)
+boolean b2 = new KW().waitForElementAttributeWithPattern(tObj, 'style', pattern, 3, FailureHandling.STOP_ON_FAILURE)
 if (b2) {
 	String styleValue2 = WebUI.getAttribute(tObj, "style");
 	WebUI.comment("styleValue2=" + styleValue2)
