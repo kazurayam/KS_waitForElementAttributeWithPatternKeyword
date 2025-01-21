@@ -1,4 +1,9 @@
-= waitForElementAttributeWithPattter keyword for Katalon Studio
+= Katalon Studio Custom keyword: waitForElementAttributeWithPattter
 
-- [The target web page](./page.html)
+== Problem to solve
+
+Please click the following link to open a public URL as a testbed:
+
+- [The target web page](https://kazurayam.github.io/KS_waitForElementAttributeWithPatternKeyword/page.html)
+
 

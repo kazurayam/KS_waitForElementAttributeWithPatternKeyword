@@ -4,8 +4,10 @@ This is a small Katalon Studio project for demonstration purpose. You can downlo
 the [Releases](https://github.com/kazurayam/KS_waitForElementAttributeWithPatternKeyword/releases) page,
 unzip it, open it using your local Katalon Studio.
 
-This project presents a custom keyword named `waitForElementAttributeWithPattern`, which is designed
-to wait for an attribute of an HTML element to become present for a given timeout seconds while trying to match the attribute's value with a Regular expression.
+This project proposes a custom keyword named `waitForElementAttributeWithPattern`,
+which waits for an attribute of an HTML element to become present
+of which value matches with a given Regular expresion
+in a given timeout seconds.
 
 This custom keyword was ispired by the discussion in a topic in the Katalon user forum:
 
@@ -13,5 +15,5 @@ This custom keyword was ispired by the discussion in a topic in the Katalon user
 
 # Detail documentation
 
-- https://kazurayam.github.io/KS_waitForElementAttributeWithPatternKeyword/
+- [document](https://kazurayam.github.io/KS_waitForElementAttributeWithPatternKeyword/)
 
