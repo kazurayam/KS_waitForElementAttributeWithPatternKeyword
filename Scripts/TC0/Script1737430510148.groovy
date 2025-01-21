@@ -19,5 +19,8 @@ Path html = Paths.get(RunConfiguration.getProjectDir()).resolve("page.html")
 WebUI.openBrowser('')
 WebUI.setViewPortSize(800, 600)
 WebUI.navigateToUrl(html.toFile().toURI().toURL().toExternalForm());
+
+WebUI.delay(3)
+
 TestObject tObj = makeTestObject("Side Navigation Window", "//*[@id='bi_mySidenav']");
-WebUI.verifyElementPresent(tObj, 10);
+WebUI.verifyElementPresent(tObj, 3);
