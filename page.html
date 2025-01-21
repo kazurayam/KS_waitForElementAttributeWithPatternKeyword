@@ -19,7 +19,8 @@
 
   <script type="text/javascript" defer>
     const fn = function() {
-      $("#bi_mySidenav").animate({width: '1px'}, 'slow')
+      const finalWidth = Math.floor(100 * Math.random())
+      $("#bi_mySidenav").animate({width: finalWidth + 'px'}, 'slow')
     }
     setTimeout(fn, 1000);
   </script>
