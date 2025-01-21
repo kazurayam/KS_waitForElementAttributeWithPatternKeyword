@@ -11,7 +11,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 
 /**
- * TC0
+ * TC0 fails intentionally. 
+ * 
+ * It demonstrates why the built-in keyword WebUI.waitForElementAttributeValue fails a a case where 
+ * a 'style' attribute of a HTML element moves dynamically.
  *
  */
 

@@ -15,7 +15,8 @@
   <script type="text/javascript" defer>
     const fn = function() {
       const el = document.querySelector("#bi_mySidenav");
-      el.style = 'width: 60px';
+      const percent = Math.floor(50 * Math.random());
+      el.style = `width: ${percent}%;`;
     }
     setTimeout(fn, 3000);
   </script>
