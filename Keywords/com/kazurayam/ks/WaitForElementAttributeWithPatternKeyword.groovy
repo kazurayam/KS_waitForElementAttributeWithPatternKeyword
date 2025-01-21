@@ -52,7 +52,7 @@ public class WaitForElementAttributeWithPatternKeyword extends WebUIAbstractKeyw
 							public Boolean apply(WebElement element) {
 								// customized
 								String attrValue = foundElement.getAttribute(attributeName)
-								println attrValue
+								//println attrValue
 								Matcher m = ptn.matcher(attrValue)
 								return m.find()
 							}
